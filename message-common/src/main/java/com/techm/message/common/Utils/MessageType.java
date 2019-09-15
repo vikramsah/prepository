@@ -13,5 +13,4 @@ public enum MessageType {
 	public String getMessageType() {
 		return this.messageType;
 	}
-
 }
