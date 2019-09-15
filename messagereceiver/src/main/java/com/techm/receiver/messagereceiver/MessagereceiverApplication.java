@@ -42,6 +42,7 @@ public class MessagereceiverApplication {
         return props;
     }
 
+	
     @Bean
     public ConsumerFactory<String, String> consumerFactory() {
         return new DefaultKafkaConsumerFactory<>(consumerConfigs());
